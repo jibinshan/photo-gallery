@@ -1,0 +1,23 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(28, 28, 80);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.navbar h2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar h2:hover{
+    background-color: rgb(135, 135, 243);
+}
+.navbar h2:active{
+    background-color: rgb(135, 135, 243);
+}
