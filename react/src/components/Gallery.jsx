@@ -6,7 +6,7 @@ import Navbar from './Navbar'
 function Gallery() {
     
     const [pictures,setPictures] = useState([])
-    const api = "http://localhost:1999/images"
+    const api = "https://photo-gallery-server-jibinshans-projects.vercel.app/images"
     const fetchdata = async()=>{
       const response = await axios(api)
        setPictures(response.data)  
