@@ -12,7 +12,7 @@ function Upload() {
         const imageurl = URL.createObjectURL(selectedimage)
         setImage(imageurl)
       }
-      const api = "http://localhost:1999/upload"
+      const api = "https://photo-gallery-server-jibinshans-projects.vercel.app/upload"
     const handlesubmit = async()=>{
       const formdata = new FormData()
       formdata.append("upload_file",file)
